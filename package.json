@@ -1,0 +1,22 @@
+{
+  "name": "codeforces_submitter",
+  "version": "1.0.0",
+  "description": "Submit Codeforces code with CLI environment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "keywords": [],
+  "author": {
+    "email": "sorisem4106@naver.com",
+    "name": "nnnlog",
+    "url": "https://github.com/nnnlog/"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cookie": "^0.4.1",
+    "form-data": "^3.0.0",
+    "yargs": "^16.2.0"
+  }
+}

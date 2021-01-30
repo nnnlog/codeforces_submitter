@@ -1,0 +1,4 @@
+.idea/
+*.iml
+session
+node_modules/
