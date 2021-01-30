@@ -1,6 +1,6 @@
 const fs = require("fs");
 const axios = require("axios");
-const _tta = require("./_tta");
+const _tta = require(`${__dirname}/_tta`);
 const cookie = require("cookie");
 const yargs = require('yargs/yargs');
 const { hideBin } = require('yargs/helpers');
@@ -20,7 +20,7 @@ let contestNum, problem, code;
 } else {
 	console.log(`Usage: `);
 	console.log(`node ${argv.$0} <Source Code Path> <Contest> <Problem>`);
-	console.log(`Example: node ${argv.$0} ./main.cpp 1370 A`);
+	console.log(`Example: node ${argv.$0} ./main.cpp 1000 A`);
 	process.exit(0);
 }
 

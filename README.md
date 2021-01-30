@@ -19,8 +19,20 @@ npm i
 
 ## Usage
 ```
-node index.js ./main.cpp 1000 A
+node PATH/index.js <Source Code Path> <Contest> <Problem>
 ```
+
+* Example
+
+```
+Example: node ~/codeforces_submitter/ ./main.cpp 1000 A
+```
+
+## More
+* clone repository to `~/`
+* `sudo cp ~/tools/cf_submit /usr/local/bin`
+* Then, you can submit code with `cf_submit` command.
+* For example, `cf_submit ./main.cpp 1000 A`
 
 ## TODO
 * Create setting to manage compiler type.

@@ -1,0 +1,2 @@
+#!/usr/bin/env sh
+exec node "$HOME/codeforces_submitter/" $1 $2 $3
