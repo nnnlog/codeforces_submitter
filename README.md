@@ -22,10 +22,10 @@ npm i
 node PATH/index.js <Source Code Path> <Contest> <Problem>
 ```
 
-* Example
+#### Example
 
 ```
-Example: node ~/codeforces_submitter/ ./main.cpp 1000 A
+node ~/codeforces_submitter/ ./main.cpp 1000 A
 ```
 
 ## More
