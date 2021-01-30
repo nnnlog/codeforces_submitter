@@ -23,7 +23,7 @@ node PATH/index.js <Source Code Path> <Contest> <Problem>
 ```
 
 #### Example
-* ![Description](https://raw.githubusercontent.com/nnnlog/codeforces_submitter/master/docs/ex_LI.jpg)
+* ![Description](https://raw.githubusercontent.com/nnnlog/codeforces_submitter/master/docs/ex.jpg)
 ```
 node ~/codeforces_submitter/ ./main.cpp 1000 A
 ```
