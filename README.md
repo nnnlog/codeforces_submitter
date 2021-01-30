@@ -38,5 +38,13 @@ Example: node ~/codeforces_submitter/ ./main.cpp 1000 A
 * Create setting to manage compiler type.
 * get the current contest link automatically.
 
+## Warning
+* I do not deny there is no attempt to access the Codeforces server through a technical bypass. (such as obfuscated get_tta)
+* *Under the MIT license, the user is responsible for everything.*
+
+#### Korean (한국어)
+* 기술적 우회을 통하여 코드포스 서버에 접속하려는 시도가 없다는 것을 부인하지 않습니다. (난독화된 get_tta와 같은)
+* *MIT 라이선스에 따라서 모든 책임은 사용자에게 있습니다.*
+
 ## LICENSE
 * MIT
