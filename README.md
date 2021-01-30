@@ -14,6 +14,7 @@ npm i
 * Open Console (with F12) and select `Application` from top bar.
 * Click `Cookies` -> `https://codeforces.com`.
 * There is `JSESSIONID`'s value.
+* ![Description](https://raw.githubusercontent.com/nnnlog/codeforces_submitter/master/docs/capture.PNG)
 * *You must keep your session value securely*
 
 ## Usage
