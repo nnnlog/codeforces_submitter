@@ -63,16 +63,14 @@ const session = `JSESSIONID=${fs.readFileSync(`${__dirname}/session`, 'utf8')};`
 	form.append("submittedProblemIndex", problem);
 	form.append("source", "");
 	form.append("programTypeId", "54"); //54 -> GNU G++17 7.3.0 TODO: change value
-	form.append("sourceFile", fs.createReadStream(code), {
-		'Content-Type': 'application/octet-stream'
-	});
+	form.append("sourceFile", fs.createReadStream(code));
 	form.append("_tta", _tta(parsed));
 
 	try{
 		let ret = await axios.post(`${problemURL}?csrf_token=${csrf}`, form, {
 			headers: form.getHeaders({
 				'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36',
-				'Cookie': `${session} 39ce7=${parsed['39ce7']};`
+				'Cookie': `${session}`
 			}),
 			maxRedirects: 0
 		});
