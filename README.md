@@ -29,8 +29,8 @@ Example: node ~/codeforces_submitter/ ./main.cpp 1000 A
 ```
 
 ## More
-* clone repository to `~/`
-* `sudo cp ~/tools/cf_submit /usr/local/bin`
+* clone repository to `~/codeforces_submitter/`
+* `sudo cp ~/codeforces_submitter/tools/cf_submit /usr/local/bin`
 * Then, you can submit code with `cf_submit` command.
 * For example, `cf_submit ./main.cpp 1000 A`
 
